@@ -1,0 +1,70 @@
+header {
+    min-width: 375px;
+    max-width: 800px;
+    height: 220px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 10px;
+    margin: 20px auto;
+    background: none;
+    background-color: rgba(236, 236, 236, 0.118);
+    backdrop-filter: blur(12px);
+    box-shadow: 0px 2px 10px 0px rgba(122, 122, 122, 0.5);
+
+    form {
+        width: 95%;
+        height: 200px;
+        background: none;
+        margin: 20px auto;
+
+        input {
+            color: rgb(67, 67, 67);
+            font-weight: 500;
+            padding-right: 5px;
+        }
+
+        button {
+            margin-top: 20px;
+            border-radius: 5px;
+            background-color: rgb(209, 209, 209);
+            color: rgb(65, 65, 65);
+            font-weight: 500; 
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                background-color: rgb(197, 197, 197);
+                color: white;
+            }
+        }
+    }
+
+    .width-section, .height-section, .quantity-section {
+        margin-top: 15px;
+        background: none;
+
+        .width-error-text, .height-error-text, .quantity-error-text {
+            color: red;
+            font-size: 12px;
+            background: none;
+        }
+
+        .width-input, .height-input, .quantity-input {
+            width: 100%;
+            height: 30px;
+            border: 1px solid gray;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 6px;
+            background: none;
+            background-color: rgba(238, 238, 238, 0.741);
+    
+            .width-symbol, .height-symbol, .quantity-symbol {
+                width: 30px;
+                height: 30px;
+                color: gray;
+                background: none;
+                padding-left: 3px;
+            }
+        }
+    }
+
+}

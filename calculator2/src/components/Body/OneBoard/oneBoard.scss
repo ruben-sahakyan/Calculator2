@@ -1,0 +1,30 @@
+.one-board {
+    width: 95%;
+    border: 1px solid rgb(149, 149, 149);
+    background: none;
+    background-color: rgba(247, 170, 26, 0.052);
+    margin: 20px auto;
+
+    .base-square {
+        display: flex;
+        flex-wrap: wrap;
+        background: none;
+    }
+
+    .other-square {
+        display: flex;
+        flex-wrap: wrap;
+        background: none;
+    }
+
+    .one-item {
+        border: 1px solid rgba(116, 116, 116, 0.915);
+        background: none;
+        background-color: rgba(0, 128, 0, 0.384);
+        transition: all 0.1s ease-in-out;
+
+        &:hover {
+            background-color: rgba(0, 128, 0, 0.395);
+        }
+    }
+}
